@@ -12,7 +12,7 @@ import { Server } from 'socket.io';
 
 dotenv.config({ path: '../.env' });
 const app = express()
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 5000
 const DATABASE_URL = process.env.DATABASE_URL
 
 
